@@ -3,7 +3,7 @@ una aplicacion que se le ingresen dos edades en dos cuadro de textos
 edadUno, EdadDos
 mostrar el promedio y la suma en dos cuadros de textos nuevos
 botones "calcular" y "limpiar cuadros de textos" -->
-<h1>Hola Mundo! {{ title }}</h1>
+<!-- <h1>Hola Mundo! {{ title }}</h1>
 <input type="text" [(ngModel)]="edadUno" />
 <br />
 <input type="text" [(ngModel)]="EdadDos" />
@@ -14,7 +14,16 @@ botones "calcular" y "limpiar cuadros de textos" -->
 <button (click)="dividir()">PROMEDIO</button>
 <h1>{{ prom }}</h1>
 <br />
-<button (click)="limpiar()">LIMPIAR</button>
+<button (click)="limpiar()">LIMPIAR</button> -->
+
+<div>
+  <button routerLink="bienvenido">Bienvenido</button>
+  <button routerLink="registro">Registrarse</button>
+  <button routerLink="login">Login</button>
+  <button routerLink="error">Error</button>
+</div>
+
+<router-outlet></router-outlet>
 
 <!-- 2-( componentes nuevos) Realizar:
 la clase usuario con nombre y clave ,

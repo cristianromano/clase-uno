@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BienvenidoComponent } from './components/bienvenido/bienvenido.component';
 import { ErrorComponent } from './components/error/error.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { LoginComponent } from './components/login/login.component';
     BienvenidoComponent,
     ErrorComponent,
     LoginComponent,
+    RegistroComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
